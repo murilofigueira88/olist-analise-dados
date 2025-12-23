@@ -1,86 +1,100 @@
 🛒 Projeto de Análise de Dados — E-commerce Brasileiro (Olist)
+📌 Visão Geral
 
-## 📌 Visão Geral
+Este projeto tem como objetivo realizar uma análise completa de dados de um e-commerce brasileiro, utilizando o dataset público da Olist, amplamente reconhecido na comunidade de análise e ciência de dados.
 
-Este projeto tem como objetivo analisar dados reais de um **e-commerce brasileiro**, utilizando o dataset público da **Olist**, amplamente conhecido na comunidade de ciência e análise de dados.
+O foco está na aplicação de Análise Exploratória de Dados (EDA), integração de múltiplas tabelas relacionais e geração de insights de negócio relacionados a vendas, comportamento de clientes, logística e satisfação.
 
-O foco do projeto é aplicar técnicas de **análise exploratória de dados (EDA)**, limpeza, integração de múltiplas tabelas e geração de insights relacionados a vendas, clientes, logística e avaliações.
+O projeto simula um cenário real de tomada de decisão, com métricas e análises que poderiam apoiar áreas como vendas, operações e experiência do cliente.
 
----
+🗂️ Base de Dados
 
-## 🗂️ Base de Dados
+Fonte: Kaggle — Brazilian E-Commerce Public Dataset by Olist
 
-- **Fonte:** Kaggle — Brazilian E-Commerce Public Dataset by Olist  
-- **Link:** https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce  
-- **Formato:** CSV  
-- **Período:** 2016–2018  
+Formato: CSV
 
-### Principais tabelas
-- `orders`
-- `customers`
-- `order_items`
-- `products`
-- `sellers`
-- `payments`
-- `reviews`
-- `geolocation`
+Período: 2016 a 2018
 
----
+Principais Tabelas
 
-## 🎯 Perguntas de Negócio
+orders — pedidos
 
-O projeto busca responder perguntas como:
+customers — clientes
 
-- Como evoluíram as vendas ao longo do tempo?
-- Quais categorias de produtos geram mais receita?
-- Qual o comportamento dos clientes (recorrência, localização)?
-- Como os prazos de entrega impactam a satisfação do cliente?
-- Existe relação entre atraso na entrega e nota de avaliação?
-- Quais estados concentram maior volume de pedidos?
+order_items — itens do pedido
 
----
+products — produtos
 
-## 🔧 Etapas do Projeto
+sellers — vendedores
 
-1. Entendimento do dataset e relacionamento entre tabelas  
-2. Limpeza e tratamento de dados (valores nulos, datas, duplicidades)  
-3. Integração das tabelas (joins)  
-4. Análise exploratória (EDA)  
-5. Criação de métricas e indicadores  
-6. Geração de insights e visualizações  
+payments — meios de pagamento
 
----
+reviews — avaliações dos clientes
 
-## 📊 Análises Realizadas
+geolocation — dados geográficos
 
-- Volume de pedidos ao longo do tempo  
-- Receita por categoria de produto  
-- Distribuição geográfica de clientes e pedidos  
-- Tempo de entrega vs avaliação do cliente  
-- Análise de atrasos logísticos  
-- Métodos de pagamento mais utilizados  
+Dataset relacional, ideal para análises com múltiplos joins e modelagem dimensional.
 
----
+🎯 Perguntas de Negócio
 
-## 🛠️ Ferramentas Utilizadas
+Este projeto busca responder perguntas como:
 
-- **Python**
-  - Pandas
-  - NumPy
-  - Matplotlib
-  - Seaborn
-- **Jupyter Notebook**
-- **GitHub**
-- **Kaggle**
+Como as vendas evoluíram ao longo do tempo?
 
----
+Quais categorias de produtos geram mais receita?
 
-## 📈 Resultados Esperados
+Qual é o comportamento dos clientes em termos de recorrência e localização?
 
-O projeto permite identificar padrões de comportamento dos clientes, gargalos logísticos e oportunidades de melhoria nos processos de venda e entrega, apoiando decisões estratégicas em um cenário real de e-commerce.
+Como os prazos de entrega impactam a satisfação do cliente?
 
----
+Existe relação entre atraso na entrega e nota de avaliação?
 
-## 📎 Observações
+Quais estados concentram maior volume de pedidos?
 
-Este projeto é **educacional e demonstrativo**, utilizando dados públicos e reais, com foco no desenvolvimento de habilidades práticas em análise de dados, exploração de dados e storytelling analítico.
+🔧 Etapas do Projeto
+
+Entendimento do dataset e relacionamento entre tabelas
+
+Limpeza e tratamento de dados (valores nulos, datas e duplicidades)
+
+Integração das tabelas utilizando joins
+
+Análise exploratória de dados (EDA)
+
+Criação de métricas e indicadores de negócio
+
+Geração de insights e visualizações
+
+📊 Análises Realizadas
+
+Evolução do volume de pedidos ao longo do tempo
+
+Receita por categoria de produto
+
+Distribuição geográfica de clientes e pedidos
+
+Tempo de entrega versus avaliação do cliente
+
+Análise de atrasos logísticos
+
+Métodos de pagamento mais utilizados
+
+🛠️ Ferramentas Utilizadas
+
+Python
+
+Pandas e NumPy
+
+Matplotlib e Seaborn
+
+Jupyter Notebook
+
+GitHub
+
+Kaggle
+
+(Power BI poderá ser incorporado na fase de visualização executiva do projeto.)
+
+📈 Resultados Esperados
+
+O projeto permite identificar padrões de comportamento dos clientes, gargalos logísticos e oportunidades de melhoria nos processos de venda e entrega, apoiando decisões estratégicas em um contexto real de e-commerce.
