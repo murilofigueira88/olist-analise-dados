@@ -61,6 +61,20 @@ Geração de insights e conclusão executiva
 
 📊 Principais Análises Realizadas
 
+## 📈 Exemplos de Análises
+
+### Evolução do Volume de Pedidos
+![Evolução dos Pedidos](images/pedidos_tempo.png)
+
+### Evolução da Receita Mensal
+![Receita Mensal](images/receita_mensal.png)
+
+### Logística e Avaliação do Cliente
+![Entrega x Avaliação](images/entrega_avaliacao.png)
+
+### Categorias com Maior Receita
+![Categorias por Receita](images/categorias_receita.png)
+
 Evolução do volume de pedidos ao longo do tempo
 
 Evolução da receita mensal e identificação de sazonalidade
