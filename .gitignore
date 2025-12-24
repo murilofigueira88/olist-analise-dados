@@ -1,0 +1,6 @@
+# Ignorar dados brutos
+data/raw/
+
+# Arquivos temporários
+.ipynb_checkpoints/
+__pycache__/
